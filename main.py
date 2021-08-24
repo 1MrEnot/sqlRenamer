@@ -7,7 +7,7 @@ from os import listdir, remove
 from os.path import isfile, join, isdir
 import shutil
 
-root_folder = r"C:\Users\Max\PycharmProjects\sqlRenamer\files"
+root_folder = r"C:\Users\Max\PycharmProjects\sqlRenamer\new"
 backup_folder = "all"
 
 
@@ -82,6 +82,3 @@ if __name__ == '__main__':
         mapping[file.file_name] = file_mapping
 
         gen.increment_shift()
-
-
-    a = 4
